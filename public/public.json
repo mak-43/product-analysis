@@ -1,0 +1,64 @@
+[
+    {
+        "name":"Faija",
+        "comment":"Juicy",
+        "rating":"4.5",
+        "img":"https://i0.wp.com/airypassion.com/wp-content/uploads/2021/02/faiza.jpg?resize=300%2C300&ssl=1"
+    },
+    
+    {
+        "name":"Petuk Couple",
+        "comment":"Quality food",
+        "rating":"4.0",
+        "img":"http://i.ytimg.com/vi/5GGUw4HJge4/hqdefault.jpg"
+    },
+    {
+        "name":"Street Food",
+        "comment":"Hungry ",
+        "rating":"4.8",
+        "img":"https://i.ytimg.com/vi/BHFb0ED7360/maxresdefault.jpg"
+    },
+    {
+        "name":"BD-Food-vloger",
+        "comment":"Item was xoss ",
+        "rating":"5",
+        "img":"https://static2.bigstockphoto.com/3/0/4/large1500/403268714.jpg"
+        
+    },
+    {
+        "name":"Guri firi khaiday",
+        "comment":"Average",
+        "rating":"3.9",
+        "img":"https://i.ytimg.com/vi/MTZ5y7-LhMA/hqdefault.jpg"
+    },
+    {
+        "name":"Rafsan The Pinic",
+        "comment":"Texture",
+        "rating":"5",
+        "img":"https://c.tenor.com/QkfSvGPxocoAAAAC/rafsan-rafsanthechotobhai.gif"
+    },
+    {
+        "name":"Yum Yum & Tum Tum",
+        "comment":"Just yummy",
+        "rating":"4.9",
+        "img":"https://urbandiaries.in/wp-content/uploads/2018/09/395a-Top-Food-Bloggers-in-India.jpg"
+    },
+    {
+        "name":"Tabassum",
+        "comment":"Hungry ",
+        "rating":"3.9",
+        "img":"https://myrepublica.nagariknetwork.com/uploads/media/2019/May/food-blog.jpg"
+    },
+    {
+        "name":"Jerin",
+        "comment":"Awesome",
+        "rating":"4.3",
+        "img":"https://youthincmag.com/wp-content/uploads/2017/09/7063596-3x2-940x627.jpg"
+    },
+    {
+        "name":"Empire food",
+        "comment":"Not bad",
+        "rating":"4.7",
+        "img":"https://cdn.i-scmp.com/sites/default/files/d8/yp/images/coverfoodblogger.artgusi4spr.1scmp22jul15ypjessica27jonw8658a.jpg"
+    }
+]
