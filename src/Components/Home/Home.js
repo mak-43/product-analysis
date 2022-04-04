@@ -16,12 +16,12 @@ const Home = () => {
     return (
         <div className='py-8'>
             <div className=' grid md:grid-cols-2 sm:grid-cols-1 '>
-                <div className='basis-9/12 flex flex-col justify-center items-center m-3  '>
+                <div className='basis-9/12 flex flex-col justify-center items-center m-3  order-2 md:order-1'>
                      <h1 className='text-6xl py-5 '>Yummy Food</h1>
                      <p>Very texture , Mouth waterig ,juicy ,yummy,just awesome</p>
                      <button  className='rounded-full  py-2 px-4 my-5 text-white bg-gray-500 hover:bg-black '>Add Button</button>
                 </div>
-                <div className='basis-4/12 mr-8 sm:w-2/3 sm:ml-8'>
+                <div className='basis-4/12 mr-8 sm:w-2/3 sm:ml-8 order-1 md:order-2'>
                         <img className='rounded ' src={Pic} alt="yummy " />
                 </div>
             </div>

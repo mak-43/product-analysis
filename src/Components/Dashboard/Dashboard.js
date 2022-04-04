@@ -11,8 +11,8 @@ const Dashboard = () => {
     return (
         <div className='py-8 grid md:grid-cols-2 sm:grid-cols-1 '>
 
-            <div>
-                <h1>MONTH WISE SELL</h1>
+            <div className='flex flex-col items-center'>
+                <h1 className='text-xl text-sky-600 my-5'>MONTH WISE SELL</h1>
                 <LineChart width={400} height={500} data={data}>
                     <Line dataKey={'sell'}></Line>
                     <Legend>MONTH WISE SELL</Legend>
@@ -21,8 +21,8 @@ const Dashboard = () => {
                     <Tooltip></Tooltip>
                 </LineChart>
             </div>
-            <div>
-                <h1>Investment VS Revenue</h1>
+            <div className='flex flex-col items-center'>
+                <h1 className='text-xl text-sky-600 my-5'>Investment VS Revenue</h1>
                 <AreaChart
                     width={400}
                     height={500}
@@ -43,8 +43,8 @@ const Dashboard = () => {
                 </AreaChart>
 
             </div>
-            <div>
-                <h1>Investment VS Revenue</h1>
+            <div className='flex flex-col items-center mt-8'>
+                <h1 className='text-xl text-sky-600 my-5'>Investment VS Revenue</h1>
                 <BarChart
                     width={400}
                     height={500}
@@ -65,8 +65,8 @@ const Dashboard = () => {
                     <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
                 </BarChart>
             </div>
-            <div>
-            <h1>Investment VS Revenue</h1>
+            <div className='flex flex-col items-center mt-8'>
+            <h1 className='text-xl text-sky-600 my-5'>Investment VS Revenue</h1>
                 <PieChart width={400} height={400}>
                     <Pie data={data} dataKey="investment" cx="50%" cy="50%" outerRadius={60} fill="#8884d8" />
                     <Pie data={data} dataKey="revenue" cx="50%" cy="50%" innerRadius={70} outerRadius={90} fill="#82ca9d" label />
