@@ -3,8 +3,8 @@ import React from 'react';
 const Cart = ({ cart }) => {
     const { img, name, comment, rating } = cart
     return (
-        <div className='' >
-            <div className=' border-2 border-zinc-800 p-2 m-5 rounded drop-shadow-xl  h-full'>
+        <div  >
+            <div className=' border-2 border-zinc-800 p-2 m-5 rounded drop-shadow-xl  h-full '>
                 <div className='flex justify-center drop-shadow-md py-3'>
                     <img className='h-44 w-52 rounded-sm' src={img} alt="several batper" />
                 </div>
