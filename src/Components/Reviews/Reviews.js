@@ -1,11 +1,11 @@
 import React from 'react';
 import Cart from '../Cart/Cart';
-import useCart from '../useCart/useCart';
+import useCart from '../Hooks/useCart';
 
 const Reviews = () => {
     const [carts,setCart]=useCart([])
     return (
-        <div className='grid lg:grid-cols-4 md:grid-cols-3  sm:grid-cols-2 gap-4 '>
+        <div className='grid lg:grid-cols-4 md:grid-cols-3  sm:grid-cols-2 gap-4 py-8'>
             {
                 carts.map(cart=><Cart
                 cart={cart.name}

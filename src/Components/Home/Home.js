@@ -2,7 +2,7 @@ import React from 'react';
 import {  useNavigate } from 'react-router-dom';
 import Pic from '../Assets/images/f1.jpg'
 import Cart from '../Cart/Cart';
-import useCart from '../useCart/useCart';
+import useCart from '../Hooks/useCart';
 
 
 const Home = () => {
